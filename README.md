@@ -181,6 +181,7 @@
 </div>
 
 <div>
+ <h2>↓SNSはこちら↓</h2>
 <p>
 <a href="https://www.instagram.com/light.salt.design/" target="_blank">Instagram</a>
 </p>

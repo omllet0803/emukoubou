@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Salt Design - kaihatu</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* ナビバー */
+        .navbar {
+            background-color: black;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+            text-align: center;
+        }
+        .navbar a:hover {
+            background-color: gray;
+        }
+
+        /* 画像コンテナ */
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px;
+        }
+        .image-box {
+            width: 100%;
+            max-width: 500px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        .image-box a {
+            display: block;
+            border: 2px solid black;
+            overflow: hidden;
+        }
+        .image-box img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .caption {
+            margin-top: 10px;
+            text-align: left;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* スマホ対応 */
+        @media (max-width: 600px) {
+            .navbar {
+                flex-direction: column;
+                align-items: center;
+            }
+            .image-container {
+                flex-direction: column;
+                align-items: center;
+            }
+            .caption {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ナビバー -->
+    <div class="navbar">
+        <a href="worm.html">ワーム</a>
+        <a href="seisaku.html">製作方法</a>
+        <a href="kaihatu.html">開発日記</a>
+        <a href="#notices">お知らせ</a>
+    </div>
+    
+    <h1>開発日記</h1>
+
+    <!-- 説明エリア -->
+    <div class="image-container">
+        <div class="image-box">
+            <a href="kaihatu.html">
+                <img id="kaihatu-image" src="kaihatu.jpg" alt="開発">
+            </a>
+        </div>
+        <div class="caption">
+            <a href="kaihatuin2025,02.html">2025年</a>
+        </div>
+    </div>
+    
+    <script>
+        // 画像スライドショー（5秒ごとに切り替え）
+        let flosImages = ["flos1.jpg", "flos2.jpg", "flos3.jpg"];
+        let flosIndex = 0;
+
+        function changeImages() {
+            kaihatuIndex = (flosIndex + 1) % kaihatuImages.length;
+            document.getElementById("kaihatu-image").src = kaihatuImages[kaihatuIndex];
+        }
+        setInterval(changeImages, 5000); // 5秒ごとに画像を変更
+    </script>
+
+</body>
+</html>

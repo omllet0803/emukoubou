@@ -182,7 +182,7 @@
 <div>
 <p>
 <a href="https://www.instagram.com/light.salt.design/" target="_blank">Instagram</a>
-s</p>
+</p>
 <a href="https://twitter.com" target="_blank">X</a>
 </div>
 

@@ -102,7 +102,7 @@
         <a href="notices.html">お知らせ</a>
     </div>
 
-    <h1>emuの工房</h1>
+    <h1>emu工房</h1>
 
     <!-- 画像エリア -->
     <div class="image-container">

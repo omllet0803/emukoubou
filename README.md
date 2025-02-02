@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Light Salt Design - ワーム＆製作方法</title>
+    <title>emu工房 - ワーム＆製作方法</title>
     <meta name="description" content="ワームと製作方法の紹介。最新のお知らせをチェック！">
     <meta name="keywords" content="ワーム, 釣り, ルアー, 製作方法, 釣具">
-    <meta name="author" content="Light Salt Design">
+    <meta name="author" content="emu工房">
     <link rel="canonical" href="https://your-website.com">
 
     <style>

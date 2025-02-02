@@ -98,6 +98,7 @@
     <div class="navbar">
         <a href="worm.html">ワーム</a>
         <a href="seisaku.html">製作方法</a>
+        <a href="kaihatu.html">開発日記</a>
         <a href="notices.html">お知らせ</a>
     </div>
 

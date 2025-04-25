@@ -1,4 +1,5 @@
 #emu工房
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -96,7 +97,7 @@
 
     <!-- ナビバー -->
     <div class="navbar">
-    　  <a href="home.html">ホーム</a>
+        <a href="home.html">ホーム</a>
         <a href="worm.html">ワーム</a>
         <a href="seisaku.html">製作方法</a>
         <a href="kaihatu.html">開発日記</a>
@@ -184,9 +185,11 @@
 <div>
  <h2>↓SNSはこちら↓</h2>
 <p>
-<a href="https://www.instagram.com/light.salt.design/" target="_blank">Instagram</a>
+<a href="https://www.instagram.com/saikuringangler?igsh=MXdvNjk3anQyZjRpaQ%3D%3D" target="_blank">Instagram</a>
 </p>
-<a href="https://twitter.com" target="_blank">X</a>
+<a href="https://x.com/Angler216" target="_blank">X</a>
+</p>
+<a href="https://ameblo.jp/omllet/" target="_blank">アメブロ</a>
 </div>
 
 
